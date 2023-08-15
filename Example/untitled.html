@@ -1,0 +1,1141 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="format-detection" content="telephone=no, address=no, email=no" />
+    <meta name="viewport" content="width=device-width, user-scalable=yes" />
+    <meta name="description" content="수서고속철도, SRT, 수서~부산(경부선), ~목포(호남선), 승차권 예매, 운행정보 안내" />
+    <meta name="naver-site-verification" content="0a893b6cf32c1efffb45bae4d7f442b5b74f7f84" />
+    <title>좌석선택 | 일반승차권 조회 &lt; 승차권예약 &lt; 승차권 &lt; 승차권 예약/발매 - 국민철도 SR</title>
+    <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-precomposed.png" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="/css/common.css" />
+    <link rel="stylesheet" type="text/css" href="/css/jquery-ui.css" />
+    <link rel="stylesheet" type="text/css" href="/css/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="/css/ticket.css" />
+
+    <link rel="stylesheet" type="text/css" href="/css/contents.css" />
+
+    <!--[if IE 7]><link rel="stylesheet" type="text/css" href="/css/skin/etk_kr/ie7.css" /><![endif]-->
+    <!--[if IE 8]><link rel="stylesheet" type="text/css" href="/css/skin/etk_kr/ie8.css" /><![endif]-->
+    <!--[if IE 9]><link rel="stylesheet" type="text/css" href="/css/skin/etk_kr/ie9.css" /><![endif]-->
+    <script type="text/javascript">
+    //<![CDATA[
+        var MAIN_CONTEXT_PATH = '';
+        var WWW_DOMAIN = 'https://www.srail.co.kr';
+        var cfg = {
+            contextPath : '',
+            isLogin : false
+        };
+        /*
+        switch (location.hostname) {
+            case 'testetkp.srail.co.kr' :
+                document.domain = 'srail.co.kr';
+                break;
+            case 'devetk.srail.co.kr' :
+                document.domain = 'srail.co.kr';
+                break;
+            case 'devetk.srail.kr' :
+                document.domain = 'srail.kr';
+                break;
+            case 'etk.srail.co.kr' :
+                document.domain = 'srail.co.kr';
+                break;
+            case 'etk.srail.kr' :
+                document.domain = 'srail.kr';
+                break;
+            default :
+                document.domain = 'srail.kr';
+        } 
+        */
+        //document.domain = 'srail.kr';
+    //]]>
+    
+    </script>
+    <script type="text/javascript" src="/js/jquery/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="/js/jquery/plugin/jquery-ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="/js/jquery.bxslider.js"></script>
+    <script type="text/javascript">var $J = $.noConflict();</script>
+    <script type="text/javascript" src="/js/js.js?201812100809"></script>
+    <script type="text/javascript" src="/js/prototype/prototype.1.7.2.js"></script>
+    <script type="text/javascript" src="/js/scriptaculous/1.9.0/scriptaculous.js?load=builder,effects"></script>
+    <script type="text/javascript" src="/js/Common.js"></script>
+    <script type="text/javascript" src="/js/Navi.js"></script>
+    <script type="text/javascript" src="/js/sweetalert2.js"></script>
+    <script type="text/javascript" src="/js/swiper-bundle.min.js"></script>
+
+
+</head>
+<body>
+
+
+<style type="text/css">
+    .etcoff {visibility:hidden;}
+</style>
+
+<div id="wrap" class="etk-popup">
+    <h1>좌석선택</h1>
+    <div class="contents etk-scar">
+
+    
+    
+    
+        <div class="guide">
+            <ul>
+                <li class="first">요청하신 <strong>승객 1명</strong>의 원하시는 좌석을 선택하여 주십시오.</li>
+                <li>발매가 가능한 좌석을 선택하실 수 있습니다.</li>
+                <li>원하시는 좌석을 선택 후 [선택좌석 예약하기] 버튼을 클릭하시면 예약이 완료됩니다. (복수선택 가능)</li>
+                <li>원하지 않는 좌석이 선택된 경우에는 좌석을 한번 더 클릭하시면 취소됩니다.</li>
+            </ul>
+        </div>
+        <form name="search-form" id="search-form" action="/hpg/hra/01/selectPassengerResearchList.do?pageId=TK0101010000" method="post">
+            <fieldset>
+                <legend>좌석 선택영역</legend>
+                <input type="hidden" name="trnNo1" value="00315" /><input type="hidden" name="dptRsStnCd1" value="0551" /><input type="hidden" name="arvStnRunOrdr1" value="000010" /><input type="hidden" name="pageId" value="TK0101010000" /><input type="hidden" name="index1" value="1" /><input type="hidden" name="seatAttCd1" value="015" /><input type="hidden" name="runDt1" value="20230810" /><input type="hidden" name="mode" value="1" /><input type="hidden" name="dptDt1" value="20230810" /><input type="hidden" name="psgNum" value="1" /><input type="hidden" name="psrmClCd1" value="2" /><input type="hidden" name="arvRsStnCd1" value="0020" /><input type="hidden" name="jrnySqno" value="001" /><input type="hidden" name="chtnDvCd" value="1" /><input type="hidden" name="trnGpCd1" value="300" /><input type="hidden" name="dptStnRunOrdr1" value="000001" /><input type="hidden" name="scarNo1" value="" /><input type="hidden" name="dptTm1" value="080500" />
+                
+                
+                
+                
+                <div class="scar">
+                    <div class="map">
+                        <div class="screen">
+                            <ul style="width:529px;">
+                            
+                                <li class="scar-01 off"><strong>일반실<br />1호차</strong></li>
+                            
+                                <li class="scar-02 off"><strong>일반실<br />2호차</strong></li>
+                            
+                                <li class="scar-03 on"><a href="#none" onclick="selectScarInfo('0003'); return false;" tabindex="3"><strong>특실<br />3호차<em>(현재 호차)</em></strong></a></li>
+                            
+                                <li class="scar-04 off"><strong>일반실<br />4호차</strong></li>
+                            
+                                <li class="scar-05 off"><strong>일반실<br />5호차</strong></li>
+                            
+                                <li class="scar-06 off"><strong>일반실<br />6호차</strong></li>
+                            
+                                <li class="scar-07 off"><strong>일반실<br />7호차</strong></li>
+                            
+                                <li class="scar-08 off"><strong>일반실<br />8호차</strong></li>
+                            
+                            </ul>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                    <h2>SRT 315 <strong>수서 ▶ 부산</strong> 특실 3호차 좌석정보</h2>
+                </div>
+                <div class="seat">
+                    <div class="desc">
+                        <ul class="props">
+                            <li class="props-02"><em></em> 휠체어</li>
+                            <li class="props-03"><em></em> 전동휠체어</li>
+                        </ul>
+                        <ul class="abled">
+                            <li class="abled-01"><em>붉은색(밑줄)</em> 선택좌석</li>
+                            <li class="abled-02"><em>회색(배경)</em> 선택불가</li>
+                            <li class="abled-03"><em>흰색</em> 선택가능</li>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                    <!-- 창문 위치 20200220 이동규 -->
+                    
+                    
+                        
+                            
+                             <!-- 특실 창문갯수 5.5개 -->
+                                <img style="width:830px" src="/images/ticket/window_pc55.png">
+                            
+                            
+                            
+                        
+                    
+                    
+                    <div class="list">
+            
+                
+                
+                
+                
+                
+                        <ul class="first">
+                        
+                            
+                                <li class="props-015 
+                                    
+                                    
+                                         off
+                                        
+                                    ">
+                                    
+                                        
+                                        
+                                            <span>1A<strong><em>(정방향, 내측, 선택불가)</em></strong></span>
+                                        
+                                    
+                                    
+                                </li>
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                                <li class="props-015 
+                                    
+                                    
+                                        
+                                        
+                                    ">
+                                    
+                                        
+                                            <a href="#none" onclick="selectSeatInfo(this, '4', '2A'); return false;">2A<strong><em>(정방향, 내측)</em></strong></a>
+                                        
+                                        
+                                    
+                                    
+                                </li>
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                                <li class="props-015 
+                                    
+                                    
+                                         off
+                                        
+                                    ">
+                                    
+                                        
+                                        
+                                            <span>3A<strong><em>(정방향, 내측, 선택불가)</em></strong></span>
+                                        
+                                    
+                                    
+                                </li>
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                                <li class="props-015 
+                                    
+                                    
+                                         off
+                                        
+                                    ">
+                                    
+                                        
+                                        
+                                            <span>4A<strong><em>(정방향, 내측, 선택불가)</em></strong></span>
+                                        
+                                    
+                                    
+                                </li>
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                                <li class="props-015 
+                                    
+                                    
+                                         off
+                                        
+                                    ">
+                                    
+                                        
+                                        
+                                            <span>5A<strong><em>(정방향, 내측, 선택불가)</em></strong></span>
+                                        
+                                    
+                                    
+                                </li>
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                                <li class="props-015 
+                                    
+                                    
+                                         off
+                                        
+                                    ">
+                                    
+                                        
+                                        
+                                            <span>6A<strong><em>(정방향, 내측, 선택불가)</em></strong></span>
+                                        
+                                    
+                                    
+                                </li>
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                                <li class="props-015 
+                                    
+                                    
+                                         off
+                                        
+                                    ">
+                                    
+                                        
+                                        
+                                            <span>7A<strong><em>(정방향, 내측, 선택불가)</em></strong></span>
+                                        
+                                    
+                                    
+                                </li>
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                                <li class="props-015 
+                                    
+                                    
+                                         off
+                                        
+                                    ">
+                                    
+                                        
+                                        
+                                            <span>8A<strong><em>(정방향, 내측, 선택불가)</em></strong></span>
+                                        
+                                    
+                                    
+                                </li>
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                                <li class="props-015 
+                                    
+                                    
+                                         off
+                                        
+                                    ">
+                                    
+                                        
+                                        
+                                            <span>9A<strong><em>(정방향, 내측, 선택불가)</em></strong></span>
+                                        
+                                    
+                                    
+                                </li>
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                                <li class="props-015 
+                                    
+                                    
+                                         off
+                                        
+                                    ">
+                                    
+                                        
+                                        
+                                            <span>10A<strong><em>(정방향, 내측, 선택불가)</em></strong></span>
+                                        
+                                    
+                                    
+                                </li>
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                                <li class="props-015 
+                                    
+                                    
+                                         off
+                                        
+                                    ">
+                                    
+                                        
+                                        
+                                            <span>11A<strong><em>(정방향, 내측, 선택불가)</em></strong></span>
+                                        
+                                    
+                                    
+                                </li>
+                            
+                        
+                            
+                        
+                            
+                        
+                        </ul>
+                        <div class="clear"></div>
+                     
+                        <div class="dir">
+                            <strong class="dpt">수서</strong>
+                            <strong class="arv">부산</strong>
+                        </div>
+                    
+                        <ul class="first">
+                        
+                            
+                        
+                            
+                                <li class="props-015 
+                                    
+                                    
+                                         off
+                                        
+                                    ">
+                                    
+                                        
+                                        
+                                            <span>1B<strong><em>(정방향, 내측, 선택불가)</em></strong></span>
+                                        
+                                    
+                                    
+                                </li>
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                                <li class="props-015 
+                                    
+                                    
+                                         off
+                                        
+                                    ">
+                                    
+                                        
+                                        
+                                            <span>2B<strong><em>(정방향, 내측, 선택불가)</em></strong></span>
+                                        
+                                    
+                                    
+                                </li>
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                                <li class="props-015 
+                                    
+                                    
+                                         off
+                                        
+                                    ">
+                                    
+                                        
+                                        
+                                            <span>3B<strong><em>(정방향, 내측, 선택불가)</em></strong></span>
+                                        
+                                    
+                                    
+                                </li>
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                                <li class="props-015 
+                                    
+                                    
+                                         off
+                                        
+                                    ">
+                                    
+                                        
+                                        
+                                            <span>4B<strong><em>(정방향, 내측, 선택불가)</em></strong></span>
+                                        
+                                    
+                                    
+                                </li>
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                                <li class="props-015 
+                                    
+                                    
+                                         off
+                                        
+                                    ">
+                                    
+                                        
+                                        
+                                            <span>5B<strong><em>(정방향, 내측, 선택불가)</em></strong></span>
+                                        
+                                    
+                                    
+                                </li>
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                                <li class="props-015 
+                                    
+                                    
+                                         off
+                                        
+                                    ">
+                                    
+                                        
+                                        
+                                            <span>6B<strong><em>(정방향, 내측, 선택불가)</em></strong></span>
+                                        
+                                    
+                                    
+                                </li>
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                                <li class="props-015 
+                                    
+                                    
+                                         off
+                                        
+                                    ">
+                                    
+                                        
+                                        
+                                            <span>7B<strong><em>(정방향, 내측, 선택불가)</em></strong></span>
+                                        
+                                    
+                                    
+                                </li>
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                                <li class="props-015 
+                                    
+                                    
+                                         off
+                                        
+                                    ">
+                                    
+                                        
+                                        
+                                            <span>8B<strong><em>(정방향, 내측, 선택불가)</em></strong></span>
+                                        
+                                    
+                                    
+                                </li>
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                                <li class="props-015 
+                                    
+                                    
+                                         off
+                                        
+                                    ">
+                                    
+                                        
+                                        
+                                            <span>9B<strong><em>(정방향, 내측, 선택불가)</em></strong></span>
+                                        
+                                    
+                                    
+                                </li>
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                                <li class="props-015 
+                                    
+                                    
+                                         off
+                                        
+                                    ">
+                                    
+                                        
+                                        
+                                            <span>10B<strong><em>(정방향, 내측, 선택불가)</em></strong></span>
+                                        
+                                    
+                                    
+                                </li>
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                                <li class="props-015 
+                                    
+                                    
+                                         off
+                                        
+                                    ">
+                                    
+                                        
+                                        
+                                            <span>11B<strong><em>(정방향, 내측, 선택불가)</em></strong></span>
+                                        
+                                    
+                                    
+                                </li>
+                            
+                        
+                            
+                        
+                        </ul>
+                        <div class="clear"></div>
+                    
+                    
+                        <ul>
+                        
+                            
+                        
+                            
+                        
+                            
+                                <li class="props-015 
+                                    
+                                    
+                                         off
+                                        
+                                    ">
+                                    
+                                        
+                                        
+                                            <span>1C<strong><em>(정방향, 창측, 선택불가)</em></strong></span>
+                                        
+                                    
+                                    
+                                </li>
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                                <li class="props-015 
+                                    
+                                    
+                                         off
+                                        
+                                    ">
+                                    
+                                        
+                                        
+                                            <span>2C<strong><em>(정방향, 창측, 선택불가)</em></strong></span>
+                                        
+                                    
+                                    
+                                </li>
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                                <li class="props-015 
+                                    
+                                    
+                                         off
+                                        
+                                    ">
+                                    
+                                        
+                                        
+                                            <span>3C<strong><em>(정방향, 창측, 선택불가)</em></strong></span>
+                                        
+                                    
+                                    
+                                </li>
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                                <li class="props-015 
+                                    
+                                    
+                                         off
+                                        
+                                    ">
+                                    
+                                        
+                                        
+                                            <span>4C<strong><em>(정방향, 창측, 선택불가)</em></strong></span>
+                                        
+                                    
+                                    
+                                </li>
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                                <li class="props-015 
+                                    
+                                    
+                                         off
+                                        
+                                    ">
+                                    
+                                        
+                                        
+                                            <span>5C<strong><em>(정방향, 창측, 선택불가)</em></strong></span>
+                                        
+                                    
+                                    
+                                </li>
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                                <li class="props-015 
+                                    
+                                    
+                                         off
+                                        
+                                    ">
+                                    
+                                        
+                                        
+                                            <span>6C<strong><em>(정방향, 창측, 선택불가)</em></strong></span>
+                                        
+                                    
+                                    
+                                </li>
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                                <li class="props-015 
+                                    
+                                    
+                                         off
+                                        
+                                    ">
+                                    
+                                        
+                                        
+                                            <span>7C<strong><em>(정방향, 창측, 선택불가)</em></strong></span>
+                                        
+                                    
+                                    
+                                </li>
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                                <li class="props-015 
+                                    
+                                    
+                                         off
+                                        
+                                    ">
+                                    
+                                        
+                                        
+                                            <span>8C<strong><em>(정방향, 창측, 선택불가)</em></strong></span>
+                                        
+                                    
+                                    
+                                </li>
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                                <li class="props-015 
+                                    
+                                    
+                                         off
+                                        
+                                    ">
+                                    
+                                        
+                                        
+                                            <span>9C<strong><em>(정방향, 창측, 선택불가)</em></strong></span>
+                                        
+                                    
+                                    
+                                </li>
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                                <li class="props-015 
+                                    
+                                    
+                                         off
+                                        
+                                    ">
+                                    
+                                        
+                                        
+                                            <span>10C<strong><em>(정방향, 창측, 선택불가)</em></strong></span>
+                                        
+                                    
+                                    
+                                </li>
+                            
+                        
+                            
+                        
+                            
+                        
+                            
+                                <li class="props-015 
+                                    
+                                    
+                                         off
+                                        
+                                    ">
+                                    
+                                        
+                                        
+                                            <span>11C<strong><em>(정방향, 창측, 선택불가)</em></strong></span>
+                                        
+                                    
+                                    
+                                </li>
+                            
+                        
+                        </ul>
+                        <div class="clear"></div>
+                    
+                    
+                
+                
+            
+                    </div>
+                    
+                    <!-- 창문 위치 20200220 이동규 -->
+                    
+                    
+                        
+                            
+                             <!-- 특실 창문갯수 5.5개 -->
+                                <img style="width:830px" src="/images/ticket/window_pc55.png">
+                            
+                            
+                            
+                        
+                    
+                    
+                    <div class="select">
+                
+                    
+                    
+                        <dl class="wide select-seat">
+                            <dt>선택좌석 :</dt>
+                            <dd></dd>
+                        </dl>
+                    
+                
+                        <div class="clear"></div>
+                        <div class="button">
+                            
+                            <input type="button" value="선택좌석 예약하기" onclick="requestReservationInfo();" />
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    
+
+    </div>
+    <a id='ifExit' href="#none" onclick="return (function () {
+        if (parent.g_IFrame) {
+            parent.iframe2focus(parent.g_IFrame.src.substring(parent.g_IFrame.src.indexOf('index1')+7,parent.g_IFrame.src.indexOf('index1')+8));                
+            parent.g_IFrame.close();
+            return false;
+        }
+        opener.checkReservationInfo();
+        window.close();
+        return false;
+    }.bind(this))(event)" class="close">닫기</a>
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+    var SYNC_TITLE = false;
+    var target = parent.g_IFrame ? parent : opener;
+
+//  setTimeout(function(){
+//      $$('div.map div.screen ul li.scar-03 a')[0]
+//  },1000);
+    
+    
+    function selectScarInfo(scarNo) { 
+        var o = $('search-form');
+
+        //-- 장거리 전용 객차 체크 및 알림
+        if (parseInt(scarNo, 10) % 10 == 2) {
+            if ('true' != 'true') {
+                window.alert('해당 호차는 장거리 전용 객실입니다.');
+                return;
+            } else if (!confirm('해당 호차는 장거리 전용 객실입니다.\n\n좌석을 선택하시겠습니까?')) {
+                return;
+            }
+        }
+        //--
+
+        //-- 사회적 약자 배려석 및 유아/어린이 동반석 알림
+        
+        /*if (parseInt(scarNo, 10) % 10 == 4) {
+            if (!confirm('해당 호차는 사회적 약자 배려석입니다.\n\n노인, 임산부 등 사회적 배려가 필요한 교통약자에게 우선적으로 제공되는 좌석입니다.\n\n좌석을 선택하시겠습니까?')) {
+                return;
+            }
+        
+        } 
+        */
+        else if (parseInt(scarNo, 10) % 10 == 5) {
+            if (!confirm('해당 호차는 유아/어린이 동반석입니다.\n\n열차내 유아/어린이로 인하여 소란스러울 수 있으니 이용에 참고 부탁드립니다.\n\n좌석을 선택하시겠습니까?')) {
+                return;
+            }
+        }
+        //--
+
+        if (Navi.showLoading()) {
+            o.getElementsBySelector('input[name=seatNos1],input[name=seatNms1]').findAll(function (s) {
+                s.remove();
+            }.bind(this));
+            o.scarNo1.value = scarNo;
+            o.submit();
+        }
+    }
+
+    function selectSeatInfo(element, seatNo, seatNm) { 
+        var o = $('search-form');
+        var s = $(element);
+        var a = $$('.seat .select dd')[0];
+        var n = [];
+
+        //-- 장거리 전용 객차 체크
+        if ('true' != 'true' && '3' == '2') {
+            window.alert('2호차는 장거리 전용 객실입니다.\n\n다른 호차를 선택하신 후 진행하십시오.');
+            return;
+        }
+        //--
+
+        if (s.parentNode.hasClassName('on')) {
+            deleteSeatInfo(element, seatNo, seatNm);
+            //20230103DONGQ_웹접근성조치
+            //호차 선택해제시, 선택됨 정보 제거
+            s.lastElementChild.innerHTML = s.lastElementChild.innerHTML.substring(0,s.lastElementChild.innerHTML.length-8)+"</em>";
+            return;
+        }
+
+        if (o.getElementsBySelector('input[name=seatNos1]').length >= parseInt(o.psgNum.value)) {
+            window.alert('요청하신 승객수 ' + o.psgNum.value + '명을 초과하였습니다.');
+            return;
+        }
+
+        //-- 안전서포터 좌석 알림
+        if (('3' == '2' && Common.inArray(seatNm, ['14A', '14B', '14C', '14D'])) || ('3' == '6' && Common.inArray(seatNm, ['1A', '1B', '1C', '1D']))) {
+            if (!confirm('선택하신 좌석은 안전서포터 좌석입니다.\n\n해당 좌석을 선택하시겠습니까?')) {
+                return;
+            }
+        }
+        //--
+
+        o.getElementsBySelector('fieldset')[0].insert('<input type="hidden" name="seatNos1" value="' +  seatNo + '" /><input type="hidden" name="seatNms1" value="' +  seatNm + '" />');
+        o.getElementsBySelector('input[name=seatNms1]').findAll(function (e) {
+            n[n.length] = e.value;
+        }.bind(this));
+
+        o.scarNo1.value = '0003';
+        s.parentNode.addClassName('on');
+        //20230103DONGQ_웹접근성조치
+        //호차 선택시, 선택됨 정보 추가
+        s.lastElementChild.innerHTML = s.lastElementChild.innerHTML.substring(0,s.lastElementChild.innerHTML.length-5)+"선택됨</em>"
+        a.update('3호차 ' + n.join(', '));
+    }
+
+    function deleteSeatInfo(element, seatNo, seatNm) { 
+        var o = $('search-form');
+        var s = $(element);
+        var a = $$('.seat .select dd')[0];
+        var n = [];
+
+        o.getElementsBySelector('input[name=seatNos1]').findAll(function (e, i) {
+            if (e.value == seatNo) {
+                e.remove();
+            }
+        }.bind(this));
+
+        o.getElementsBySelector('input[name=seatNms1]').findAll(function (e) {
+            if (e.value == seatNm) {
+                e.remove();
+                return;
+            }
+
+            n[n.length] = e.value;
+        }.bind(this));
+
+        s.parentNode.removeClassName('on');
+        a.update(n.length > 0 ? '3호차 ' + n.join(', ') : '');
+    }
+
+    function changeJrnySqno() { 
+        $('search-form').jrnySqno.value = ($('search-form').jrnySqno.value == '001') ? '002' : '001';
+
+        if (Navi.showLoading()) {
+            $('search-form').submit();
+        }
+    }
+
+    function requestReservationInfo() { 
+        var o = $('search-form');
+        var e = null;
+
+     
+        if (o.getElementsBySelector('input[name=seatNos1]').length <= 0) {
+            window.alert('예약하실 좌석을 선택하십시오.');
+            return;
+        } else if (o.getElementsBySelector('input[name=seatNos1]').length != parseInt(o.psgNum.value)) {
+            window.alert('선택하신 좌석수가 요청하신 승객수 ' + o.psgNum.value + '명과 일치하지 않습니다.');
+            return;
+        }
+
+        switch ('015') {
+            case '021' : // 휠체어
+            case '028' : // 전동휠체어
+                if (!confirm('장애인 또는 유공자 등 휠체어 이용자에 한하여 이용하실 수 있습니다.\n정당한 이용자가 아닌 고객의 경우 부가운임을 징수합니다.\n\n예약을 진행하시겠습니까?')) {
+                    return;
+                }
+
+                break;
+        }
+
+        target.$$('input[name="scarGridcnt[1]"]')[0].value = '1';
+        target.$$('input[name="scarNo[1]"]')[0].value = '0003';
+
+        o.getElementsBySelector('input[name=seatNos1]').each(function (s, i) {
+            target.$$('input[name="seatNo_' + (i + 1) + '[1]"]')[0].value = s.value;
+        }.bind(this));
+
+        target.$$('.search-list table tbody tr')[1].getElementsBySelector('.button.on').each(function (s) {
+            e = s;
+        }.bind(this));
+
+        target.requestReservationInfo(e, 1, '2', '1103', true, true);
+    
+    
+    
+
+        if (parent.g_IFrame) {
+            parent.g_IFrame.close();
+            return;
+        }
+
+        window.close();
+    }
+
+    Event.observe(window, 'load', function () {
+     
+        new PeriodicalExecuter(function (exec) {
+            var area = parent.$('_LAYER_BODY_');
+            
+            var elmt = $$('div.map div.screen ul li.scar-03 a')[0];
+
+            if (area && area.visible()) {
+                elmt.focus();
+                exec.stop();
+            }
+        }.bind(this), 0.1).execute();
+    
+        try {
+            var cnt = $$('.seat .list ul')[0].getElementsBySelector('li').length;
+
+            $$('.seat .list ul').each(function (ul) {
+                ul.getElementsBySelector('li').findAll(function (li) {
+                    li.setStyle({width : (100 / cnt) + '%'});
+                }.bind(this));
+            }.bind(this));
+        } catch (e) {}
+    
+    }.bind(this));
+//]]>
+</script>
+
+
+
+
+
+
+
+<div id="cover-spin"></div>
+</div>
+<script type="text/javascript" src="/cms/js/makePCookie.js"></script>
+</body>
+</html>
